@@ -4,6 +4,8 @@ import os
 from concurrent.futures import ThreadPoolExecutor
 
 # Define input and output folder paths
+input_folder = r'D:\Dataset\H1_O3b_data\4s_Dataset'  # Folder path containing spectrogram images
+output_folder = r'D:\Dataset\H1_O3b_data\4s'  # Folder path to save processed images
 
 # Ensure the output folder exists
 if not os.path.exists(output_folder):
