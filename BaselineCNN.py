@@ -93,8 +93,8 @@ class LossHistory(tf.keras.callbacks.Callback):
 
 
 # Paths to data folders
-train_folder = r'D:\Dataset\H1_O3b_data\training'
-val_folder = r'D:\Dataset\H1_O3b_data\validation'
+train_folder = r'D:\Dataset\H1_O3a_data\training'
+val_folder = r'D:\Dataset\H1_O3a_data\validation'
 
 batch_size = 4
 
