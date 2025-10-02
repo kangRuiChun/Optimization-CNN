@@ -36,7 +36,7 @@ def load_images_from_folder(folder, target_size=(224, 224)):
 
 
 # Data path
-test_folder = r'D:\Dataset\H1_O3b_data\evaluation'  # Path to the test dataset
+test_folder = r'D:\Dataset\H1_O3a_data\evaluation'  # Path to the test dataset
 
 # Load the pre-trained model
 model = load_model(r'E:\software\pycharm\workspace\multi-view\package\GravitySpy_H1_model2.h5')
